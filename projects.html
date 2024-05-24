@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Video Edits</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f0f0f0; /* Changed to a neutral background */
+            animation: changeColor 15s infinite alternate; /* Slowed down the animation */
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .glow-button {
+            padding: 15px 30px;
+            background-color: #ff4b2b;
+            border: 2px solid #ff4b2b;
+            border-radius: 10px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 6px rgba(255, 75, 43, 0.3);
+            margin: 20px 0;
+            display: inline-block;
+        }
+
+        .glow-button:hover {
+            background-color: #ff6000;
+            box-shadow: 0 6px 8px rgba(255, 96, 0, 0.5);
+        }
+
+        @keyframes changeColor {
+            0% { background-color: #ff9055; }
+            50% { background-color: #ff4b2b; }
+            100% { background-color: #ff00b8; }
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Check "Edits" Highlight</h2>
+        <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3ODY1ODE0NzQ2MDE1OTk0?story_media_id=3269033942975372624_61144635111&igsh=MWo2bnIwbG5xaGc2aQ==" class="glow-button">All of my Edits are here</a>
+        <h1><a href="homepage.html" class="glow-button">Return Back</a></h1>
+    </div>
+</body>
+</html>
